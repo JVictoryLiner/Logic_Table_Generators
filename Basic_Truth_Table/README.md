@@ -22,7 +22,7 @@ This program only accepts three characters namely;
 It should be written in this format (firstChar_connective_lastChar)
 (¬) are merged with firstChar or lastChar to denote negation
 
-Where: 
+Where:
 
   1. firstChar & lastChar = any alphabet 
   2. connective = (^) | (⊻) | (v) | (→) | (↔) 
