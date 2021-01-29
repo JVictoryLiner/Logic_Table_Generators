@@ -15,7 +15,7 @@ This program only accepts three characters namely;
     - Exclusive Or (⊻)
     - Disjunction (v)
     - Implication (→)
-    - Biconditional (↔)
+    - Biconditional (<->)
     
 3. Any character which will symbolize (q)
 
@@ -25,7 +25,7 @@ It should be written in this format (firstChar_connective_lastChar)
 Where:
 
   1. firstChar & lastChar = any alphabet 
-  2. connective = (^) | (⊻) | (v) | (→) | (↔) 
+  2. connective = (^) | (⊻) | (v) | (→) | <-> 
   3. (_) = spaces
 
 Example :
@@ -33,7 +33,7 @@ Example :
     1. p ^ q  
     2. a v ¬b 
     3. ¬x → y 
-    4. ¬i ↔ ¬j
+    4. ¬i <-> ¬j
 
 For the mean time it will only process simple propositions ONLY
 
