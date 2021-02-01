@@ -1,26 +1,22 @@
-Basic Truth Table
+# Basic Truth Table
 
-First Mini Project
+## Discrete Mathematics Lesson - Simple Logical Connectives
 
-Referenced from my Discrete Mathematics Lesson "Simple Logical Connectives"
+##### This program only accepts three characters namely;
 
-!NOTE
-
-This program only accepts three characters namely;
-
-1. Any character which will symbolizes (p)
-2. Any of the following logical connective;
-    - Negation (¬)
-    - Conjunction (^)
-    - Exclusive Or (⊻)
-    - Disjunction (v)
-    - Implication (→)
-    - Biconditional (<->)
+1. Any character which will symbolizes **(p)**
+2. Any of the following logical connective:
+    - Negation **(¬)**
+    - Conjunction **(^)**
+    - Exclusive Or **(⊻)**
+    - Disjunction **(v)**
+    - Implication **(→)**
+    - Biconditional **(<->)**
     
-3. Any character which will symbolize (q)
+3. Any character which will symbolize **(q)**
 
-It should be written in this format (firstChar_connective_lastChar)
-(¬) are merged with firstChar or lastChar to denote negation
+**Format** :  (firstChar_connective_lastChar)
+**(¬)** are MERGED WITH firstChar or lastChar to denote negation
 
 Where:
 
@@ -35,8 +31,4 @@ Example :
     3. ¬x → y 
     4. ¬i <-> ¬j
 
-For the mean time it will only process simple propositions ONLY
-
-!END OF NOTE
-
-COMPOUND LOGICAL TABLE GENERATOR IS ON THE WORKS.
+This program will only process simple propositions ONLY
